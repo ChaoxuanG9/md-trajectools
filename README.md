@@ -20,21 +20,13 @@ This is **not a Python package**. Instead, this repository provides **ready-to-u
 More to be updated...
 
 ---
-## 🧰 Key Features
-
-- Minimal dependencies: easy to run in most MD Python environments
-- Works with any trajectory readable by [MDAnalysis](https://www.mdanalysis.org/)
-- Scripts can be used standalone from the command line
-- Functions can also be reused or modified inside Jupyter notebooks
-- Clean, commented code with built-in argument parsing and output handling
-
 
 ## 💡 Use Philosophy
 This project follows a simple principle: "Transparent, editable, and reusable". You are encouraged to:
 - Run these scripts as-is
 - Copy-paste functions into your own workflow
 - Modify for your specific MD system or output format
-- 
+
 ---
 
 ## ⚡ Quick Start
