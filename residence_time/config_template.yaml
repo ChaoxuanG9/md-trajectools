@@ -1,0 +1,31 @@
+# Config template for residence time analysis
+
+# Input trajectory files (custom .xyz format)
+path: "./trajs/*.txt"
+
+# Region type: 'edl' or 'shell'
+mode: edl
+
+# For EDL region tracking
+zmin: 0
+zmax: 10
+
+# For solvation shell tracking (if mode == 'shell')
+cutoff: 6.5
+
+# Atom selection method
+select_method: charge         # charge | label | name
+select_value: -0.32           # e.g., -0.32 for O atoms
+
+# Frames to skip (equilibration)
+exclude: 1000
+
+# PBC box dimensions (required for shell mode)
+box_x: 34.0
+box_y: 34.4
+
+# Correlation method
+from0: true
+
+# Output directory
+outdir: stickytime
