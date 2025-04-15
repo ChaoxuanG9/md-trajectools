@@ -78,6 +78,7 @@ md-trajectools/
 - `RDF.py`: Script for computing the radial distribution function.
 - `examples/`: Directory containing example trajectory files along with example usage script.
 
+---
 ## 📜 License
 This project is licensed under the MIT License (see `LICENSE` file). You are free to use, modify, and share this code with attribution.
 
